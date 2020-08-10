@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">PenID</string>
+
+    <string name="button_write_tag">Write Tag</string>
+    <string name="label_no_nfc">NFC is not available on this device</string>
+    <string name="toast_write_successful">Write Successful!</string>
+    <string name="toast_write_fail">Write Failed!</string>
+    <string name="dialog_tap_on_tag">Tap on a Tag!</string>
+    <string name="label_smile_sad">:(</string>
+    <string name="toast_invalid_note">Invalid note!</string>
+    <string name="label_note">Note</string>
+    <string name="reading_Tag">Approaching TAG To Read</string>
+
+    <string name="how_it_work">
+        This app allow you to read and write vCard/Contact in/from your Garland NFC Enable Pane.\n\n
+        We Request you to read all of User Manual to work with this app.
+    </string>
+    <string name="how_to_read" >
+        Firstly enable your NFC from settings. You will get popup for enable NFC at the start of app.
+        Go to Read tab and move your device close to NFC tag. \n\n
+        If you see button on Read tab called Retry then Click it and hole your device near to Tag.
+        Then you will see the information which in the tag.
+    </string>
+    <string name="how_to_write" >
+        Firstly enable your NFC from settings. You will get popup for enable NFC at the start of app.
+        You will see write tag tab after start app. Fill up the form or add a contact from your contacts
+        by select OPEN CONTACT button. \n\n
+        After fill up or Select a contact move your device near to tag and click WRITE TAG button.
+        Wait for moment to see success message , Otherwise Try again.
+    </string>
+    <string name="other_function" >
+        This app allow you to lock a TAG so that no one can not modify or erase your tag.
+        \n\n
+        We are Working with this function so you can not lock an tag at this moment.
+        download update version to get new features.
+    </string>
+
+    <string name="about_ncf_pen" >
+        Version: 1.0\nNFC Pen is an application software that can read, write basic business card information to an NFC enabled Garland-Pen. You can then use your NFC-pen to directly save your contact information over any NFC enabled device.
+    </string>
+    <string name="about_garland_1" >
+        Garland Writing Instruments is located in an historic mill along the Pawtuxet River in Coventry RI, USA. All of our USA-made products are designed and manufactured in our 45,000 square-ft facility. Garland’s automated facility was designed to efficiently process custom orders both large and small. Our Writing Instruments provide a combination of high-quality materials and craftsmanship along with the ability for each customer to design their unique look and marketing message through our customization processes. This provides an excellent value in today’s cost conscious environment. Contact a promotional products distributor in your area for product details, pricing and delivery information.
+    </string>
+    <string name="about_garland_2" >
+        Garland’s USA-made writing instruments are easily recognized by the flared top design, the carefully-weighted balance, and the styling. All writing instruments in the Color, Revere, Monogram, Tuscany, Signature and Founder’s Collections continue to be custom designed, engineered and manufactured in the USA by Garland. The flared top design is a registered trademark of Garland Writing Instruments and remains a subtle, yet distinctive way to identify a Garland writing instrument in today’s promotional product marketplace.\n Writing instruments in our standard hefty series’ are approximately .363” (9.22mm) in diameter whereas items in the traditional slim series’ are .292” (7.42mm) in diameter. Rollerballs from these USA collections are the same diameter as the hefty series’ pens.
+    </string>
+    <string name="address" >
+Address: Garland Writing Instruments\n
+One South Main Street\n
+Coventry, RI 02816 USA
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="phone_401_828_9582">Phone:  <a href="#">(401) 828-9582</a></string>
+    <string name="fax_401_823_7460">Fax: <a href="#">(401) 823-7460</a></string>
+    <string name="email_customerservice_garlandpen_com">Email: <a href="#">customerservice@garlandpen.com</a></string>
+    <string name="website_https_www_garlandpen_com">Website: <a href="#">https://www.garlandpen.com</a></string>
+
+</resources>

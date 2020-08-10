@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/help"
+        app:showAsAction="always"
+        android:onClick="helpDesk"
+        android:title=""
+        android:icon="@drawable/user_manual2_white"/>
+
+    <item
+        app:showAsAction="never"
+        android:title="About"
+        android:onClick="aboutDesk"
+        android:id="@+id/about"/>
+    <item
+        app:showAsAction="never"
+        android:title="Exit"
+        android:onClick="exitApp"
+        android:id="@+id/exit" />
+
+</menu>

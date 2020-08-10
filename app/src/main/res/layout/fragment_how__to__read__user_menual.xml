@@ -1,0 +1,99 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.writenfc.writenfc.How_To_Read_UserMenualFragment"
+    android:background="#e6e6e6">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:minHeight="80dp">
+                <TextView
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Read NFC Tag"
+                    android:textColor="#f15166"
+                    android:textSize="18dp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:minHeight="25dp"
+                android:background="#f7f7f7"
+                android:gravity="center"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="How to read an Tag ?"
+                    android:textColor="#302f2f"
+                    android:textStyle="bold"
+                    android:textSize="14dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:minHeight="150dp"
+                android:background="#f7f7f7"
+                android:gravity="center"
+                android:layout_marginBottom="10dp">
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:src="@drawable/enable_nfc"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="."
+                    android:textColor="#000"
+                    android:textSize="50dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="."
+                    android:textColor="#000"
+                    android:textSize="50dp"/>
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:src="@drawable/search_nfc"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:minHeight="150dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/how_to_read"
+                    android:textSize="14dp"
+                    android:textColor="#515151"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
